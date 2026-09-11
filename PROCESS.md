@@ -1,4 +1,4 @@
-process
+# Process
 I used Chatgpt as a writing and discussion partner throughout the brainstorm， drafting and development of this essay.
 
 I first described my own background. Based on this information and the assignment requirements, the AI helped me develop an initial structure around the question of why designers should learn programming when AI can increasingly generate code.
