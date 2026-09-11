@@ -54,6 +54,6 @@ If AI makes implementation increasingly cheap, perhaps the designer's responsibi
 
 I am here to learn enough about the material that, whether I write the code myself or ask a machine to write it, I remain the person designing the system.
 
-References
+## References
 
 Beattie, D. (2020). The art of code [Video]. NDC Conferences. https://www.youtube.com/watch?v=6avJHaC3C2U
