@@ -1,66 +1,59 @@
 # Why Am I Here If AI Can Code?
-The Question
 
-I came into programming from a slightly uncomfortable position. My undergraduate degree was in Industrial Design, and I was much more comfortable designing interfaces and 3D forms than writing code. Now, as an MSc student in Multimedia Innovation and Entertainment, I want to move towards game design. At the same time, AI systems can already turn a sentence into working code, and their capabilities are improving rapidly. So why should I spend time learning something that a machine is increasingly able to do for me?
+## The Question
 
-My answer is not that I need to become better at writing code than AI. I probably never will. Instead, I need to understand programming because code is part of the material through which interactive experiences are made. More importantly, I have already experienced what happens when I try to design interactive experiences without understanding that material.
+My undergraduate degree was in Industrial Design, and I was much more comfortable with visual design and 3D modelling than with code. Now, as a MSc student in Innovation Multimedia Entertainment, I want to move towards game design, starting to get invovled in programming. 
+ 
+At the same time, AI systems can already turn a sentence into working code, and they are becoming better at doing so. This makes the question difficult to avoid: if a machine can increasingly implement my ideas for me, why should I learn programming?
 
-When AI Is Not Enough
+My answer is not that I need to become better at writing code than AI. I probably never will. I am learning programming because I want to understand it as a creative material.
 
-My undergraduate graduation project made this problem particularly clear. I designed a UI for controlling a robot, focusing mainly on the interface and interaction. Figma allowed me to design screens, layouts, buttons, states, and user flows without needing to write the implementation myself.
+## Learning the Material
 
-Before moving on to implementation, I also experimented with Figma MCP and Cursor. In theory, this gave me a way to turn my design into a working interface through AI-assisted coding. However, I ran into a surprisingly simple problem: I did not understand enough code to make small changes myself. When I wanted to move a UI element or adjust a small piece of behaviour, I often had to explain the change to the AI instead of making the change directly. With limited time and a costly Cursor usage limit, this became inefficient.
+Dylan Beattie's The Art of Code gave me a useful way to think about this. His examples of programming as something capable of expression and creativity challenged my previous assumption that code is mainly a technical tool for implementing designers' ideas.
 
-The important lesson was not that AI coding did not work. It was that my lack of programming knowledge made the AI less useful to me. If I had understood the basic structure of the code, some changes would have taken seconds. Instead, I spent additional tokens describing changes that I could probably have made myself.
+This is particularly relevant to game design. A game is not only a visual object; it is a system that responds to the player. A door, for example, is not fully designed by its 3D model. Its behaviour also matters: when does it open, what causes it to open, and what happens when the player does something unexpected?
 
-This changed how I think about the relationship between designers and AI. The question is not simply whether AI can produce code. It is also whether I understand enough about the code to direct the machine effectively.
+This is similar to how I experienced 3D modelling in Blender. After spending enough time with it, I developed an intuition for the material. I could change a mesh or its structure and roughly predict what would happen. I could experiment without always following a tutorial, while I do not yet have the same intuition with programming.
 
-From Describing to Specifying
+## Knowing How, but Not Knowing Why
 
-This connects to the gap between describing and specifying. It is easy to say, “Move this button slightly to the right,” or “make this interaction feel smoother.” But implementing these ideas requires understanding what is actually controlling the position, state, timing, or behaviour.
+I experienced this when I experimented with Unreal Engine 5. I once made a simple FPS game with a firearm animation. I could make the interaction work by following tutorials and connecting Blueprint nodes in the required sequence.But I did not really understand why those nodes worked.
 
-The same problem becomes more significant in game design. A designer might say, “Make the player feel tense.” But tension is not a piece of code that can simply be requested. It may emerge from movement speed, enemy behaviour, visibility, sound, timing, probability, resource limitations, or the consequences of failure.
+I knew how to reproduce the tutorial, but not why the system behaved that way. When I wanted to change something, I often had to search for another tutorial instead of reasoning about the system myself. I had learned a procedure, but I had not developed an intuition for the material.
 
-AI can translate a specification into code, but it does not remove the need for the designer to understand what a useful specification looks like. The more capable AI becomes at implementation, the more important this distinction may become.
+For a game designer, this is a real limitation. If I cannot understand the rules behind an interaction, I can only explore within the boundaries of examples that someone else has already made. Learning programming, therefore, is not simply about acquiring another production skill. It is about gaining more freedom to experiment.
 
-Knowing How, but Not Knowing Why
+## AI Changes the Skill
 
-I encountered another version of this problem when I experimented with Unreal Engine 5. I once made a simple FPS game with a firearm animation. I was able to make the system work by following tutorials and connecting Blueprint nodes in the correct sequence.
+AI makes this question more complicated, but not less important. During my graduation project, I briefly experimented with Figma MCP and Cursor to turn my UI designs into implementation. The approach was promising, but when I needed small changes, I often had to describe them to the AI because I did not know enough code to make the changes myself.
 
-But I did not really understand why those nodes worked.
+The lesson was simple: AI could write the code, but my lack of programming knowledge limited how effectively I could use it.
 
-I knew how to reproduce the tutorial, but I did not know enough to confidently change the system when I wanted something different. If an unexpected behaviour appeared, I often had to return to the tutorial or search for another example. I had learned a procedure rather than a material.
+This makes me think that the future skill for designers may not be writing every line of code manually. It may be knowing enough about code to direct, read, and modify what AI produces. There is a difference between saying “move this button to the right” and understanding which part of a system actually controls its position.
 
-Looking back, this is very different from my experience with 3D modelling. With Blender, I became familiar enough with the material that I could experiment. I understood roughly what would happen if I changed a mesh, its topology, proportions, or structure. That intuition gave me freedom to design beyond tutorials.
+The same difference exists in game design. “Make the player feel tense” is a design intention, but not yet a specification. Turning it into an experience requires decisions about timing, movement, feedback, enemy behaviour, probability, and consequences. AI can help implement these decisions, but someone still has to decide what they should be.
 
-Programming is currently a much less familiar material to me. Learning it therefore matters not only because I want to produce code, but because I want to develop the same kind of intuition about interactive systems.
+## What Survives?
 
-Programming as a Creative Material
+Perhaps some of what I learn in this course will become obsolete during my career. I am comfortable with that possibility. I do not think the purpose of learning programming is to preserve today's coding practices.
 
-This is where Dylan Beattie's argument about programming as an expressive medium becomes important to me. I do not see programming simply as a technical skill that designers need to communicate with programmers. For game design especially, programming is part of the material itself.
+If AI eventually handles most code production, manual implementation may become less important. But understanding the medium will still matter because it allows designers to go beyond what they can merely describe. It helps them question generated solutions, make informed changes, and discover possibilities through experimentation.
 
-A game is not only something the player looks at. It is something that responds. A door in a game can be visually identical in two different games, but its meaning changes completely depending on its rules: whether it opens automatically, requires an item, reacts to a particular action, or remains locked until another event occurs.
+This is why I find Beattie's idea of programming as an expressive medium useful. Learning a medium is not only about learning its vocabulary. It is about developing an intuition for what can be expressed through it.
 
-The visual object is therefore only part of the design. The behaviour is also design.
-
-This relates to Don Ihde's idea of mediated perception. Technologies do not simply help us execute ideas; they influence what we perceive as possible. When I only think through interfaces, I naturally think in terms of screens and layouts. When I understand interactive systems more deeply, I can start thinking in terms of states, rules, feedback, timing, and behaviour.
-
-Learning programming can therefore change not only what I can build, but what I can imagine.
-
-What Survives AI?
-
-Perhaps some of what I learn in this course will become obsolete during my career. I am comfortable with that possibility. I do not think the purpose of learning programming is to preserve today's coding practices forever.
-
-If AI eventually writes most of the code, manual code production may become less important. But I think three things will remain valuable: understanding the material, specifying intentions precisely, and evaluating the result.
-
-I want to be able to look at something an AI has produced and ask: Does this actually create the interaction I intended? What assumptions has it made? What happens when the player does something unexpected? And, importantly, can I make a small change myself rather than asking the machine to regenerate everything?
-
-Why I Am Here
+## Why I Am Here
 
 So, why am I here?
 
-I am here because I want to design games, and games are systems of interaction as much as they are visual experiences. My previous design education taught me to work with visual and physical materials. My experience with UE5 showed me the limitation of copying systems I did not understand. My experience with AI-assisted coding showed me that even when a machine can write the code, not understanding the code can make the machine harder to use.
+I am here because I want to design games, and games are systems of interaction as much as they are visual experiences. My experience with UE5 showed me what happens when I can make something work without understanding why it works. My brief experience with AI-assisted coding showed me that even when a machine can write code, not understanding that code can limit my ability to use the machine effectively.
 
-I am therefore not learning programming because I expect to compete with AI at writing code. I am learning it so that I can understand the material well enough to decide what the code should do, recognise when it is wrong, and imagine things I could not have imagined before.
+I am therefore not learning programming because I expect to compete with AI at writing code. I am learning it so that code can become a material I understand well enough to experiment with.
 
-If AI is becoming better at implementation, perhaps the designer's job is moving upstream—from writing every instruction to understanding which instructions are worth giving. I want to be capable of making that decision.
+If AI makes implementation increasingly cheap, perhaps the designer's responsibility becomes even more important: to decide what should be made, specify what the system should do, and judge whether the result actually creates the intended experience.
+
+I am here to learn enough about the material that, whether I write the code myself or ask a machine to write it, I remain the person designing the system.
+
+References
+
+Beattie, D. (2020). The art of code [Video]. NDC Conferences. https://www.youtube.com/watch?v=6avJHaC3C2U
