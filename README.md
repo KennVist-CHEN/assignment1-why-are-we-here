@@ -2,7 +2,7 @@
 
 ## The Question
 
-My undergraduate degree was in Industrial Design, and I was much more comfortable with visual design and 3D modelling than with code. Now, as a MSc student in Innovation Multimedia Entertainment, I want to move towards game design, starting to get invovled in programming. 
+My undergraduate degree was in Industrial Design, and I was much more comfortable with visual design and 3D modelling than with code. Now, as a MSc student in Innovative Multimedia Entertainment, I want to move towards game design, starting to get invovled in programming. 
  
 At the same time, AI systems can already turn a sentence into working code, and they are becoming better at doing so. This makes the question difficult to avoid: if a machine can increasingly implement my ideas for me, why should I learn programming?
 
